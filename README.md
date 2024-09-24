@@ -1,2 +1,41 @@
-# Image-to-text-speech-conversion-app
-The Image to Text and Speech Conversion System extracts text from images using Tesseract OCR and converts it into both readable text and audible speech. It supports multiple languages through Google’s translation services, and the text-to-speech conversion is handled by the Google Text-to-Speech (gTTS) API.
+# Image to Text and Speech Conversion System
+
+This project is a **web-based application** that extracts text from images and converts it into both readable text and audible speech. The system is built using advanced **Optical Character Recognition (OCR)** technology, text translation, and speech synthesis to provide a seamless user experience.
+
+## Features:
+- **Text Extraction**: Uses Tesseract OCR to accurately detect and extract text from images.
+- **Multilingual Translation**: Integrates Google Translate to convert extracted text into multiple languages.
+- **Text-to-Speech Conversion**: Converts text (original or translated) into speech using Google Text-to-Speech (gTTS).
+- **Web Application**: Built with Flask, offering an intuitive interface for image uploads, text viewing, and audio playback.
+
+## Use Cases:
+- **Accessibility**: Assists visually impaired users by converting written text into speech.
+- **Language Learning**: Facilitates multilingual support for educational purposes.
+- **Document Processing**: Automates the reading and conversion of scanned documents.
+
+## Technologies Used:
+- **Tesseract OCR** for text extraction
+- **Google Translate API** for multilingual support
+- **gTTS (Google Text-to-Speech)** for audio conversion
+- **Flask** as the web framework
+- **HTML/CSS** for the frontend
+
+## How to Use:
+1. Upload an image containing text.
+2. The system extracts the text using OCR.
+3. (Optional) Choose a language to translate the text.
+4. Convert the text into speech and download the audio file.
+
+## Installation:
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/your-username/image-to-text-speech-conversion.git
+   ```
+2. Install required dependencies.
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Flask application.
+   ```bash
+   flask run
+   ```
