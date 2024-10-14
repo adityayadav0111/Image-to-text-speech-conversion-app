@@ -40,7 +40,7 @@ This project is a **web-based application** that extracts text from images and c
    flask run
    ```
 
-   ## Here are reference images for my project:
+   ## Here are reference images of my project:
 
 ![Screenshot 2024-10-14 194931](https://github.com/user-attachments/assets/7fbd3ef8-c303-40de-9da7-2fbf10ee2ae5)
 
