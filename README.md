@@ -39,3 +39,16 @@ This project is a **web-based application** that extracts text from images and c
    ```bash
    flask run
    ```
+
+   Here are reference images for my project:
+
+![Screenshot 2024-10-14 194931](https://github.com/user-attachments/assets/7fbd3ef8-c303-40de-9da7-2fbf10ee2ae5)
+
+
+
+![Screenshot 2024-10-14 195109](https://github.com/user-attachments/assets/f55570ad-f1a4-4f39-aaec-a471758a232f)
+
+![Screenshot 2024-10-14 195143](https://github.com/user-attachments/assets/1ed2a823-e968-4d48-be5a-cedab1042565)
+
+
+
